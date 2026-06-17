@@ -95,6 +95,7 @@ Important Notes:
 - Screen Time Disabler 
 - App Decrypt
 - Clean Cache
+- Remove "This Call is being Recorded" Sound
 
 ### Coming Soon
 - FTP Server
