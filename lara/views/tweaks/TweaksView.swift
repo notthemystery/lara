@@ -60,6 +60,7 @@ struct TweaksView: View {
                     NavigationLink("OTA Updates", destination: OTAView(mgr: mgr))
                     NavigationLink("Screen Time", destination: ScreenTimeView(mgr: mgr))
                     NavigationLink("Clean Cache", destination: CacheView())
+                    NavigationLink("Call Record Notification", destination: RecordView(mgr: mgr))
                 }
                 
                 Section(header: HeaderLabel(text: "Broken", icon: "exclamationmark.triangle.fill")) {
