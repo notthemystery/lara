@@ -44,7 +44,7 @@ struct RecordView: View {
                 Button("Enable") {
                     enableRecordNotify()
                 }
-                .disabled(!disabled || isOverwriting)
+                .disabled(isOverwriting)
             }
 
             // MARK: - NEW DOWNLOAD SECTION
